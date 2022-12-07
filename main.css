@@ -157,7 +157,8 @@ section h2{
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
     .container{
-        max-width: 90%;
+        max-width: 100%;
+        margin-left: 180px;
     }
 
     .container-flex h2, p{
@@ -168,6 +169,19 @@ section h2{
     header .container,
     section .container{
     display: block;
+    }
+
+    #sobre-a-loja img{
+        width: 570px;
+        height: 400px;
+    }
+
+    #sobre-a-loja p{
+        margin-right: 250px;
+    }
+
+    #comidas img{
+       max-width: 100%;
     }
 
     .comidas{
